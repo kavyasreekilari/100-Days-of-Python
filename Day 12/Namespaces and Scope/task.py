@@ -8,3 +8,12 @@ def increase_enemies():
 
 increase_enemies()
 print(f"enemies outside function: {enemies}")
+
+
+my_global_var = 3
+
+def my_function():
+    # This works no problems
+    print(my_global_var)
+
+my_function()
